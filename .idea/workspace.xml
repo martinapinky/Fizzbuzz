@@ -37,8 +37,8 @@
       <file leaf-file-name="test_car.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+            <state relative-caret-position="200">
+              <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -49,8 +49,8 @@
       <file leaf-file-name="carclass.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/carclass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -134,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_car.TestCar.CarClassTest">
+  <component name="RunManager" selected="Python tests.Unittests for test_car.TestCar.CarClassTest.test_car_speed2">
     <configuration default="false" name="Unittests in test_car.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,6 +192,21 @@
       <module name="SLC_Day2" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_car.TestCar.CarClassTest.test_car_type&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for test_car.TestCar.CarClassTest.test_car_speed2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SLC_Day2" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_car.TestCar.CarClassTest.test_car_speed2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
@@ -259,18 +274,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_car.py" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.CarClassTest.test_car_instance" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.CarClassTest" />
       <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.CarClassTest.test_car_type" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.CarClassTest.test_car_speed2" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.CarClassTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.CarClassTest.test_car_type" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.CarClassTest.test_car_instance" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_car.py" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.CarClassTest.test_car_speed2" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.CarClassTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.CarClassTest.test_car_type" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.CarClassTest.test_car_instance" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_car.py" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +317,9 @@
     <history-entry file="Unittests_for_test_car_TestCar_CarClassTest_test_car_instance - 2017.04.18 at 15h 39m 12s.xml">
       <configuration name="Unittests for test_car.TestCar.CarClassTest.test_car_instance" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_car_TestCar_CarClassTest_test_car_speed2 - 2017.04.18 at 16h 29m 56s.xml">
+      <configuration name="Unittests for test_car.TestCar.CarClassTest.test_car_speed2" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_for_test_car_TestCar_CarClassTest_test_car_type - 2017.04.18 at 16h 08m 38s.xml">
       <configuration name="Unittests for test_car.TestCar.CarClassTest.test_car_type" configurationId="tests" />
     </history-entry>
@@ -314,7 +334,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17862372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06309148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38170347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -365,8 +385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_car.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        <state relative-caret-position="200">
+          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -375,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/carclass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>

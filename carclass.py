@@ -6,6 +6,7 @@ class Car(object):
         self.num_of_doors = 4
         self.num_of_wheels = 4
         self.speed = 0
+        self.type = 'saloon'
 
     def __init__(self, name, model):
         self.model = model
@@ -16,6 +17,7 @@ class Car(object):
             self.num_of_doors = 4
         self.num_of_wheels = 4
         self.speed = 0
+        self.type = 'saloon'
 
     def __init__(self, name):
         self.name = name
@@ -26,6 +28,7 @@ class Car(object):
             self.num_of_doors = 4
         self.num_of_wheels = 4
         self.speed = 0
+        self.type = 'saloon'
 
     def __init__(self, name, model, type):
         self.model = model
@@ -47,7 +50,12 @@ class Car(object):
         else:
             self.speed = 11 * n
 
-    def
+    def is_saloon(self):
+        if self.type == 'saloon':
+            return True
+        else:
+            return False
+
 
 
 
