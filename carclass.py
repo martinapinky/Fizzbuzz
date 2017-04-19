@@ -1,54 +1,32 @@
 class Car(object):
+    num_of_doors = 4
+    speed = 0
 
-    def __init__(self):
-        self.model = 'GM'
-        self.name = "General"
-        self.num_of_doors = 4
+    def __init__(self, *args): #args -- tuple of anonymous arguments  #kwargs -- dictionary of named arguments
+        self_args = ['General', 'GM', 'saloon']
+        for arg_index in range(0, len(args)):
+            self_args[arg_index] = args[arg_index]
+
+        self.name = self_args[0]
+        self.model = self_args[1]
+        self.type = self_args[2]
+        self.num_of_doors = Car.num_of_doors
         self.num_of_wheels = 4
-        self.speed = 0
-        self.type = 'saloon'
 
-    def __init__(self, name, model):
-        self.model = model
-        self.name = name
-        if self.name == 'Porshe' or 'Koenigsegg':
+        if self.name == 'Porshe' or self.name == 'Koenigsegg':
             self.num_of_doors = 2
-        else:
-            self.num_of_doors = 4
-        self.num_of_wheels = 4
-        self.speed = 0
-        self.type = 'saloon'
 
-    def __init__(self, name):
-        self.name = name
-        self.model = 'GM'
-        if self.name == 'Porshe' or 'Koenigsegg':
-            self.num_of_doors = 2
-        else:
-            self.num_of_doors = 4
-        self.num_of_wheels = 4
-        self.speed = 0
-        self.type = 'saloon'
-
-    def __init__(self, name, model, type):
-        self.model = model
-        self.name = name
-        if self.name == 'Porshe' or 'Koenigsegg':
-            self.num_of_doors = 2
-        else:
-            self.num_of_doors = 4
-        self.type = type
         if self.type == 'trailer':
             self.num_of_wheels = 8
-        else:
-            self.num_of_wheels = 4
+
         self.speed = 0
 
     def drive(self, n):
         if self.name == 'Mercedes':
-            self.speed = 1000
+            self.speed = (1000/3) * n
         else:
             self.speed = 11 * n
+        return self
 
     def is_saloon(self):
         if self.type == 'saloon':
@@ -56,6 +34,11 @@ class Car(object):
         else:
             return False
 
+mycar = Car('Porshe', 'Truck', 'trailer')
+print(mycar.speed)
+print(mycar.name)
+print(mycar.num_of_doors)
+print(mycar.drive(7).speed)
 
 
 
